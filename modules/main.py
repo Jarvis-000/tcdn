@@ -40,13 +40,13 @@ bot = Client("bot",
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [7078486618]  # Replace with the actual owner user IDs
+OWNER_IDS = [6348445990]  # Replace with the actual owner user IDs
 
 # Global variables
-log_channel_id = 7078486618
+log_channel_id = 2439292793
 authorized_users = []
 ALLOWED_CHANNEL_IDS = []
-my_name = "𝐊𝐔𝐍𝐀𝐋❤️"
+my_name = "❤️"
 overlay = None 
 accept_logs = 0
 bot_running = False
@@ -415,7 +415,7 @@ async def start(client: Client, msg: Message):
             Data.START.format(msg.from_user.mention) +
             "You are currently using the free version. 🆓\n\n"
             "I'm here to make your life easier by downloading videos from your **.txt** file 📄 and uploading them directly to Telegram!\n\n"
-            "Want to get started? Press /id\n\n💬 Contact @ikunalx to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓"
+            "Want to get started? Press /id\n\n💬 Contact @Bookzoneofficial_bot to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓"
         )
 
 
